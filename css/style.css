@@ -1,0 +1,122 @@
+body {
+    background: #161616;
+    /*background-image: url(/assaets/img/background-image.jpg);*/
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+a {
+    font-family: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 43px;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.container {
+    color: #fff;
+    display:grid;
+    grid-template-rows: min-content 1fr;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;
+    column-gap: 50px;
+}
+
+.my-team {
+    background-color: /*rgb(101, 164, 223);*/ #f47746;
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    border-radius: 5px; 
+  }
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.social-links-text {
+    color: #3743ec; /* Color links    
+    
+} */
+
+.social-links-text {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+}
+
+ul .social-links-text a:link, a:active {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #61647D;
+    font-weight:bold;
+}
+ul a:visited {
+    color: #61647D;
+}
+ul a:hover {
+    color:#c3c3e4;
+    text-decoration:none;
+}
+
+.socials-list-item {
+	list-style: none;
+	margin: 5px 20px 5px 0;
+}
+
+.avatar {
+    background-image: url(/assaets/img/avatar.jpg);
+    background-size: cover;
+    height: 100%;
+    z-index: 9;
+    background-position-y: -50px;
+    border-radius: 4px;
+}
+
+
+.avatar-container {
+    position: relative;
+}
+
+.active-circle {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background: #F47046;
+    filter: blur(230px);
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    opacity: 0.3;
+    z-index: -1;
+}
