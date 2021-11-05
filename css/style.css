@@ -21,6 +21,19 @@ h1 {
     margin: 0;
 }
 
+.lang-select {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.change-lang {
+    color: #fff;
+    background-color: black;
+    border: solid #fff 2px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
 .tagline {
     font-size: 23px;
     font-weight: 300;
@@ -53,7 +66,7 @@ h1 {
     font-size: 20px;
     margin: 0 0 20px 0;
     cursor: pointer;
-    border-radius: 5px; 
+    border-radius: 5px;
   }
 
 .links {
@@ -62,8 +75,8 @@ h1 {
 }
 
 /*.social-links-text {
-    color: #3743ec; /* Color links    
-    
+    color: #3743ec; /* Color links
+
 } */
 
 .social-links-text {
@@ -97,10 +110,10 @@ ul a:hover {
 .avatar {
     background-image: url(/assaets/img/avatar.jpg);
     background-size: cover;
-    height: 100%;
-    z-index: 9;
     background-position-y: -50px;
     border-radius: 4px;
+    z-index: 9;
+    padding-bottom: 60%;
 }
 
 
