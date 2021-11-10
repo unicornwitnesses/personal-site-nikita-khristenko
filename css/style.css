@@ -108,12 +108,12 @@ ul a:hover {
 }
 
 .avatar {
-    background-image: url(/assaets/img/avatar.jpg);
-    background-size: cover;
-    background-position-y: -50px;
-    border-radius: 4px;
-    z-index: 9;
-    padding-bottom: 60%;
+	background-image: url(/assaets/img/avatar.jpg);
+	background-size: cover;
+	background-position-y: -60px;
+	border-radius: 4px;
+	z-index: 9;
+	padding-bottom: 64%;
 }
 
 
