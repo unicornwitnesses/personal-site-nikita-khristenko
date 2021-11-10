@@ -37,12 +37,12 @@ const changeSelectedOption = () => {
 
 const translations = {
   title: {
-    en: 'Title',
-    ru: 'Заголовок',
+    en: 'I’m Nikita Khristenko. ux/ui designer. Certified coach.',
+    ru: 'Никита Христенко. ux/ui designer. Certified coach.',
   },
   description: {
-    en: 'Description',
-    ru: 'Описание',
+    en: 'I have a rich arsenal of skills and more than 3 years of hard freelancing experience. If you need to see a portfolio right away, go for it.',
+    ru: 'У меня есть богатый арсенал навыков и больше 3 лет наработанного на суровом фрилансе опыта. Если вам нужно сразу посмотреть портфолио, то вперед.',
   },
   myTeam: {
     en: 'My team',
